@@ -41,5 +41,32 @@ To simulate a real-time trading experience for users to practice stock investmen
 ---
 
 ## 📁 Folder Structure
+investiq/
+├── client/ # React frontend
+├── server/ # Node.js + Express backend
+├── dashboard/ # Admin or user dashboard components
+├── README.md
+
+
+---
+
+## 🖥️ How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/investiq.git
+cd investiq
+
+# Start backend
+cd server
+npm install
+npm start
+
+# Start frontend
+cd ../client
+npm install
+npm start
+
+
 
 
