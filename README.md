@@ -41,11 +41,23 @@ To simulate a real-time trading experience for users to practice stock investmen
 ---
 
 ## 📁 Folder Structure
+
+```
 investiq/
-├── client/ # React frontend
-├── server/ # Node.js + Express backend
-├── dashboard/ # Admin or user dashboard components
+├── client/         # React frontend
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── App.js
+├── server/         # Node.js + Express backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── index.js
+├── dashboard/      # Dashboard UI components
 ├── README.md
+```
 
 
 ---
