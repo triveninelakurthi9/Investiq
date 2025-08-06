@@ -66,7 +66,7 @@ investiq/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/investiq.git
+git clone https://github.com/triveninelakurthi9/investiq.git
 cd investiq
 
 # Start backend
